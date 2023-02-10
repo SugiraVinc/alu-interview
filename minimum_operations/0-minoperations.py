@@ -22,4 +22,4 @@ def minOperations(n):
         if n % i == 0:
             return minOperations(int(n / i)) + i
 
-    return 
+    return n 
