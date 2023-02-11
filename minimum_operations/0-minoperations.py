@@ -4,9 +4,6 @@ Minimum ops qn interview
 """
 
 
-from sys import argv
-
-
 def minOperations(n):
     """
     Calculates the minimum number of operations  to form one 'H' to n 'H's
