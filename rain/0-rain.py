@@ -22,7 +22,7 @@ def rain(walls):
 
             if first_list[y] == "*":
                 if base > 0:
-                    third_list.append(y)
+                    third_list.append(base)
                 sec_list.append(walls[y])
                 base = 0
 
