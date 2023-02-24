@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """ rain
-    caluculate 2D space
+    caluculation
 """
 
 
