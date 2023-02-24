@@ -37,8 +37,8 @@ def rain(walls):
                         output += list_two[i + 1] * list_three[i]
                 else:
                     if i < len(list_three):
-                        output += list_two[i] * list_three[i]
+                        result += list_two[i] * list_three[i]
         if len(walls) > 10:
             output = 7
 
-    return output
+    return result
