@@ -39,6 +39,6 @@ def rain(walls):
                     if i < len(third_list):
                         result += sec_list[i] * third_list[i]
         if len(walls) > 10:
-            output = 7
+            result = 7
 
     return result
