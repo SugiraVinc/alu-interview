@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-""" calculate total amount of rain water
+""" calculate total
+    amount of rain water
 """
 
 
