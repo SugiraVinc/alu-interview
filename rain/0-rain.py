@@ -9,7 +9,7 @@ def rain(walls):
     first_list = []
     sec_list = []
     third_list = []
-    width = 0
+    base = 0
     result = 0
     if len(walls) > 0:
         for x in walls:
@@ -21,17 +21,17 @@ def rain(walls):
         for y in range(0, len(walls)):
 
             if first_list[y] == "*":
-                if width > 0:
+                if base > 0:
                     third_list.append(y)
                 sec_list.append(walls[y])
-                width = 0
+                base = 0
 
             if first_list[y] == 0 and y != 0:
-                width += 1
+                base += 1
 
         length = len(sec_list)
         for i in range(0, length):
-            if i < (lenght - 1):
+            if i < (length - 1):
                 if sec_list[i] > sec_list[i + 1]:
                     if i < len(third_list):
                         result += sec_list[i + 1] * third_list[i]
