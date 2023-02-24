@@ -5,7 +5,7 @@
 
 
 def rain(walls):
-    """ rain check """
+    """ calculations for rain """
     list_one = []
     list_two = []
     list_three = []
