@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # making pascal triangle
-"""Pascal's triangle"""
+'''Pascal's triangle'''
 
 def pascal_triangle(n):
     """ pascal function """
