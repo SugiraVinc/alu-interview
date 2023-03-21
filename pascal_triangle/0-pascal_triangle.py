@@ -1,11 +1,12 @@
 #!/usr/bin/python3
-import math
+
 """
 Pascal's triangle
 """
 
 list = [1]
 def pascal_triangle(n):
+    """ pascal function """
     for i in range (n)
 	print(list)
 	oglist = []
