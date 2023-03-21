@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 
-"""
-Pascal's triangle
-"""
+"""Pascal's triangle"""
 
 list = [1]
 def pascal_triangle(n):
