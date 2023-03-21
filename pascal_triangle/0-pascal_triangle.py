@@ -2,6 +2,7 @@
 # making pascal triangle
 '''Pascal's triangle'''
 
+
 def pascal_triangle(n):
     """ pascal function """
     list = [1]
